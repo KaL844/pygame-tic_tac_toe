@@ -1,0 +1,125 @@
+{
+    "boardPanel": {
+        "x": 250,
+        "y": 250,
+        "width": 330,
+        "height": 330,
+        "anchor": "MID_CENTER",
+        "backgroundColor": [255, 0, 0, 255],
+        "children": {
+            "boardImg": {
+                "component": "Image",
+                "src": "res/game/board.png",
+                "width": 330,
+                "height": 330
+            },
+            "line0": {
+                "component": "Line",
+                "startX": 0,
+                "startY": 55,
+                "endX": 330,
+                "endY": 55,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            },
+            "line1": {
+                "component": "Line",
+                "startX": 0,
+                "startY": 165,
+                "endX": 330,
+                "endY": 165,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            },
+            "line2": {
+                "component": "Line",
+                "startX": 0,
+                "startY": 55,
+                "endX": 330,
+                "endY": 55,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            },
+            "line3": {
+                "component": "Line",
+                "startX": 55,
+                "startY": 0,
+                "endX": 55,
+                "endY": 330,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            },
+            "line4": {
+                "component": "Line",
+                "startX": 165,
+                "startY": 0,
+                "endX": 165,
+                "endY": 330,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            },
+            "line5": {
+                "component": "Line",
+                "startX": 275,
+                "startY": 0,
+                "endX": 275,
+                "endY": 330,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            },
+            "line6": {
+                "component": "Line",
+                "startX": 0,
+                "startY": 0,
+                "endX": 330,
+                "endY": 330,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            },
+            "line7": {
+                "component": "Line",
+                "startX": 330,
+                "startY": 0,
+                "endX": 0,
+                "endY": 330,
+                "z": 1,
+                "width": 3,
+                "color": [255, 255, 0],
+                "isVisible": false
+            }
+        }
+    },
+
+    "endGamePanel": {
+        "x": 250,
+        "y": 250,
+        "width": 500,
+        "height": 500,
+        "anchor": "MID_CENTER",
+        "backgroundColor": [0, 0, 0, 200],
+        "isVisible": false,
+        "children": {
+            "returnBtn": {
+                "component": "Button",
+                "text": "Return",
+                "x": 250,
+                "y": 250,
+                "anchor": "MID_CENTER"
+            }
+        }
+    }
+}

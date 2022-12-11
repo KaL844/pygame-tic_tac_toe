@@ -1,0 +1,15 @@
+{
+    "startPvPBtn": {
+        "x": 250,
+        "y": 100,
+        "text": "Player vs. Player",
+        "anchor": "MID_CENTER"
+    },
+
+    "startPvBBtn": {
+        "x": 250,
+        "y": 200,
+        "text": "Player vs. Bot",
+        "anchor": "MID_CENTER"
+    }
+}
